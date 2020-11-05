@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p{
+    display : inline
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(21, 203, 239);
+    color: rgba(246, 72, 48, 0.745);
+    width: 784px;
+    height: 200px;
+    padding: 10px 0px 10px 0px;
+}
+
+.content{
+    display: flex;
+}
+
+.kol1{
+    background-color: orange;
+    height: auto;
+    width: 200px;
+}
+
+.kol2{
+    background-color: magenta;
+    height: auto;
+    width: 584px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(28, 239, 21);
+    color: black;
+    width: 784px;
+    height: 100px;
+}

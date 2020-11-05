@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan 2 - Form dan Tabel -  14116094 Fajar Muhammad</title>
+</head>
+<body>
+    <h1>Form HTML</h1>
+    <form>
+    <p>
+        <label>Name :</label>
+        <input type="text" name="nama">
+    </p>
+    <p>
+        <label for="Man">Gender : <input id="man" type="radio" name="man"> Man</label>
+        <label for="Woman"> <input id="woman"type="radio" name="man"> Woman</label>
+    </p>
+    <p>
+        <label>Address :</label>
+        <input type="text" name="address">
+    </p>
+    <p>
+        <label>Country :</label>
+        <select>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Japan">Japan</option>
+            <option value="Korea">Korea</option>
+            <option value="Arab">Arab</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Singapore">Singapore</option>
+        </select>
+    </p>
+    <p>
+        <label>Hobbies :</label><br>
+        <input type="checkbox" name="Hobbies" value="Travelling">Travelling<br>
+        <input type="checkbox" name="Hobbies" value="Cooking">Cooking<br>
+        <input type="checkbox" name="Hobbies" value="Singing">Singing<br>
+        <input type="checkbox" name="Hobbies" value="Coding">Coding<br>
+        <input type="checkbox" name="Hobbies" value="Eating">Eating<br>
+        <input type="checkbox" name="Hobbies" value="Sleeping">Sleeping<br>
+    </p>
+    <p>
+        <label>Email :</label>
+        <input type="text" name="email">
+    </p>
+    <p>
+        <label>Photo :</label>
+        <input type="file" name="Photo">
+    </p>
+    <p>
+        <label>Comment :</label>
+        <textarea name="note" rows="5" cols="50"></textarea> 
+        <input type="submit" name="submit" value="Submit">
+    </p>
+    </form>
+
+    <br><br>
+
+    <table border="1">
+        <tr>
+            <th rowspan="2" bgcolor="magenta">Tahun</th>
+            <th colspan="2" bgcolor="#00FFFF">Jumlah Mahasiswa Teknik Informatika ITERA 2016-2020</th>
+        </tr>
+        <tr>
+            <th>Laki-Laki</th>
+            <th>Perempuan</th>
+        </tr>
+        <tr>
+            <td>2016</td>
+            <td>120 Orang</td>
+            <td>40 Orang</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>130 Orang</td>
+            <td>50 Orang</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>140 Orang</td>
+            <td>60 Orang</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>165 Orang</td>
+            <td>65 Orang</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>180 Orang</td>
+            <td>70 Orang</td>
+        </tr>
+    </table>
+</body>
+</html>
